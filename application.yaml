@@ -1,0 +1,22 @@
+configserver: true
+bus: true
+
+spring:
+  rabbitmq:
+    addresses: rabbitmq:5672
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://springbox-eureka:8761/eureka/
+  instance:
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 10
+    metadataMap:
+      instanceId: ${spring.application.name}:${server.port:8080}
+
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://springbox-auth-server:9999/uaa/user
+
