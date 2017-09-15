@@ -12,4 +12,4 @@ spring:
       driver: org.neo4j.ogm.drivers.http.driver.HttpDriver 
       uri: http://neo4j:7474
       username: neo4j
-      password: secret
+      password: {cipher}de54f20fe65d70286e40e083c122cf9367e12e64de85163b24ec97d35402d725
