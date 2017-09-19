@@ -16,8 +16,8 @@ security:
     password: password
   oauth2:
     client:
-      accessTokenUri: http://springbox-auth-server:9999/uaa/oauth/token
-      userAuthorizationUri: https://192.168.0.145/uaa/oauth/authorize
+      accessTokenUri: http://auth.jkwong-kube-422189.us-south.containers.mybluemix.net:9999/uaa/oauth/token
+      userAuthorizationUri: https://auth.jkwong-kube-422189.us-south.containers.mybluemix.net/uaa/oauth/authorize
       clientId: acme
       clientSecret: acmesecret
 
