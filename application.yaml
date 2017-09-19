@@ -25,5 +25,5 @@ eureka:
 security:
   oauth2:
     resource:
-      userInfoUri: http://springbox-auth-server:9999/user
+      userInfoUri: http://springbox-auth-server:9999/uaa/user
 
