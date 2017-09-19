@@ -15,8 +15,8 @@ security:
     password: password
   oauth2:
     client:
-      accessTokenUri: http://auth.jkwong-kube-422189.us-south.containers.mybluemix.net:9999/uaa/oauth/token
-      userAuthorizationUri: https://auth.jkwong-kube-422189.us-south.containers.mybluemix.net/uaa/oauth/authorize
+      accessTokenUri: http://auth.jkwong-kube-422189.us-south.containers.mybluemix.net:9999/oauth/token
+      userAuthorizationUri: https://auth.jkwong-kube-422189.us-south.containers.mybluemix.net/oauth/authorize
       clientId: acme
       clientSecret: acmesecret
 
