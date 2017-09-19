@@ -1,0 +1,10 @@
+server:
+  port: 9999
+  context-path: /uaa
+
+security:
+  basic:
+    enabled: false
+  user:
+    password: "{cipher}2032a56b91b35037bd3e974c97a12350fe1f10023dc7fa29952c91ac67807420"
+
