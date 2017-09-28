@@ -12,6 +12,15 @@ spring:
     ssl:
       enabled: true
 
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://default-spring-eureka-server-spring-eureka-server:8761/eureka/
+
 security:
   oauth2:
     resource:
