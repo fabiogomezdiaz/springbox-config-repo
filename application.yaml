@@ -11,6 +11,8 @@ spring:
     virtual-host: bmix-dal-yp-4b0307f2-6a20-4eda-8d79-36c54960bb90
     ssl:
       enabled: true
+  zipkin:
+    baseUrl: http://zipkin-server/
 
 eureka:
   instance:
