@@ -2,15 +2,6 @@ configserver: true
 bus: true
 
 spring:
-  rabbitmq:
-    addresses: 
-    host: sl-us-south-1-portal.8.dblayer.com
-    port: 22432
-    username: "{cipher}0a217fc150fbbb6be82deb02372b986f7f76b9de47d4a57f0d88ddf7f2c88262"
-    password: "{cipher}14e6373f089f70b65464a13d5318fb0f308251b16e23b8afdc7ef2887739f3da02662e42cc7f8a8093a6b1913cfae801"
-    virtual-host: bmix-dal-yp-4b0307f2-6a20-4eda-8d79-36c54960bb90
-    ssl:
-      enabled: true
   zipkin:
     baseUrl: http://default-zipkin-server-zipkin-server:9411/
 
