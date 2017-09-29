@@ -9,9 +9,6 @@ zuul:
     user:
       path: /user/**
       url: http://springbox-auth-server/uaa/user
-    oauth:
-      path: /oauth/**
-      url: http://springbox-auth-server/uaa/oauth
 
 security:
   user:
@@ -19,7 +16,7 @@ security:
   oauth2:
     client:
       accessTokenUri: http://springbox-auth-server/uaa/oauth/token
-      userAuthorizationUri: /oauth/authorize
+      userAuthorizationUri: http://192.168.0.145/uaa/oauth/authorize
       clientId: acme
       clientSecret: acmesecret
 
