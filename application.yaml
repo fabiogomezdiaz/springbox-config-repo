@@ -12,7 +12,7 @@ spring:
     ssl:
       enabled: true
   zipkin:
-    baseUrl: http://zipkin-server/
+    baseUrl: http://default-spring-zipkin-server-spring-zipkin-server:9411/
 
 eureka:
   instance:
