@@ -1,19 +1,6 @@
 configserver: true
 bus: true
 
-spring:
-  zipkin:
-    baseUrl: http://default-zipkin-server-zipkin-server:9411/
-
-eureka:
-  instance:
-    preferIpAddress: true
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: http://default-spring-eureka-server-spring-eureka-server:8761/eureka/
-
 security:
   oauth2:
     resource:
