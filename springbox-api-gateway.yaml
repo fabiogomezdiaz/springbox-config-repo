@@ -8,15 +8,15 @@ zuul:
     springbox-recommendations: /recommendations/**
     user:
       path: /user/**
-      url: http://springbox-auth-server:9999/uaa/user
+      url: http://springbox-auth-server/uaa/user
 
 security:
   user:
     password: password
   oauth2:
     client:
-      accessTokenUri: http://springbox.jkwong-kube-422189.us-south.containers.mybluemix.net/uaa/oauth/token
-      userAuthorizationUri: https://springbox.jkwong-kube-422189.us-south.containers.mybluemix.net/uaa/oauth/authorize
+      accessTokenUri: http://springbox-auth-server/uaa/oauth/token
+      userAuthorizationUri: https://springbox-auth-server/uaa/oauth/authorize
       clientId: acme
       clientSecret: acmesecret
 
