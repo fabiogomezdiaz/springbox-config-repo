@@ -16,7 +16,7 @@ security:
   oauth2:
     client:
       accessTokenUri: http://springbox-auth-server/uaa/oauth/token
-      userAuthorizationUri: https://springbox-auth-server/uaa/oauth/authorize
+      userAuthorizationUri: https://192.168.0.145/uaa/oauth/authorize
       clientId: acme
       clientSecret: acmesecret
 
