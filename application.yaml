@@ -4,5 +4,5 @@ bus: true
 security:
   oauth2:
     resource:
-      userInfoUri: http://springbox-auth-server:9999/uaa/user
+      userInfoUri: https://jkwong-kube-422189.us-south.containers.mybluemix.net/uaa/user
 
