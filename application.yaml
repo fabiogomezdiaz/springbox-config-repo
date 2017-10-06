@@ -4,5 +4,5 @@ bus: true
 security:
   oauth2:
     resource:
-      userInfoUri: https://jkwong-kube-422189.us-south.containers.mybluemix.net/uaa/user
+      userInfoUri: https://kyanite-int-fra02-767708.eu-central.containers.mybluemix.net/uaa/user
 

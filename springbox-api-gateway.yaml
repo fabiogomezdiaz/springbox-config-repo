@@ -8,7 +8,7 @@ zuul:
     springbox-recommendations: /recommendations/**
     user:
       path: /user/**
-      url: https://jkwong-kube-422189.us-south.containers.mybluemix.net/uaa/user
+      url: https://kyanite-int-fra02-767708.eu-central.containers.mybluemix.net/uaa/user
       #url: http://springbox-auth-server/uaa/user
 
 security:
@@ -16,8 +16,8 @@ security:
     password: password
   oauth2:
     client:
-      accessTokenUri: https://jkwong-kube-422189.us-south.containers.mybluemix.net/uaa/oauth/token
-      userAuthorizationUri: https://jkwong-kube-422189.us-south.containers.mybluemix.net/uaa/oauth/authorize
+      accessTokenUri: https://kyanite-int-fra02-767708.eu-central.containers.mybluemix.net/uaa/oauth/token
+      userAuthorizationUri: https://kyanite-int-fra02-767708.eu-central.containers.mybluemix.net/uaa/oauth/authorize
       clientId: acme
       clientSecret: acmesecret
 
